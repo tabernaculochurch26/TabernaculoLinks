@@ -656,7 +656,7 @@ footer span {
     inset: -9%;
     background-size: 145% 145%;
     filter: saturate(1.10) contrast(1.02);
-    animation-duration: 15s;
+    animation-duration: 10s;
     transform: translate3d(0, 0, 0) scale(1.06);
     will-change: transform, background-position;
   }
