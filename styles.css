@@ -57,7 +57,7 @@ a {
     scale(1.1);
 
   filter: saturate(1.18) contrast(1.04);
-  animation: gradientFlow 24s ease-in-out infinite alternate;
+  animation: gradientFlow 14s ease-in-out infinite alternate;
   will-change: transform, background-position;
 }
 
