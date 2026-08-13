@@ -7,10 +7,7 @@
 */
 
 window.CHURCH_LINKS = {
-  instagram: "https://www.instagram.com/tabernaculo_church3/",
-  facebook: "https://www.facebook.com/",
-  youtube: "https://www.youtube.com/",
-  pictime: "https://tabernaculochurch.pic-time.com/",
-  giving: "#",
-  visit: "#"
+  instagram: "https://www.instagram.com/midiatabernaculochurch/",
+  facebook: "https://www.facebook.com/tabernaculochurch3/",
+  pictime: "https://tabernaculochurch.pic-time.com/client/",
 };
