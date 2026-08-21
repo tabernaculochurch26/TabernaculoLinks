@@ -1283,8 +1283,8 @@ footer span {
     line-height: 0.94;
   }
 
-  h1 em {
-    margin-left: 7%;
+  h1 em {font-family: "The Seasons", Georgia, serif;
+  font-weight: 400;
   }
 
   .intro {
