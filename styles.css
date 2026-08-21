@@ -2,6 +2,14 @@
    CUSTOM FONTS
    ========================================================= */
 @font-face {
+  font-family: "The Seasons New";
+  src: url("./fonts/The Seasons.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+   @font-face {
   font-family: "Symphony Pro";
   src: url("./fonts/symphony-pro-regular.otf") format("opentype");
   font-weight: 400;
@@ -482,11 +490,11 @@ h1 {
 
 h1 em {
   display: block;
-  margin-left: 7%;
+  margin-left: 10%;
 
-  font-family: "The Seasons", Georgia, serif;
-  font-style: italic;
-  font-weight: 400;
+  font-family: "The Seasons New", Georgia, serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
 
   color: #dceafd;
 
@@ -734,9 +742,8 @@ h1 em {
 
 
   .card-copy strong {
-  font-family: "The Seasons", Georgia, serif;
-  font-weight: 400;
-
+  font-family: "The Seasons New", Georgia, serif !important;
+  font-weight: 700;
 }
 
 .description {
@@ -1283,9 +1290,19 @@ footer span {
     line-height: 0.94;
   }
 
-  h1 em {font-family: "The Seasons", Georgia, serif;
+  h1 em {
+  display: block;
+  margin-left: 10%;
+
+  font-family: "The Seasons", Georgia, serif;
+  font-style: italic;
   font-weight: 400;
-  }
+
+  color: #dceafd;
+
+  line-height: 0.92;
+  letter-spacing: -0.035em;
+}
 
   .intro {
     margin-left: 7%;
